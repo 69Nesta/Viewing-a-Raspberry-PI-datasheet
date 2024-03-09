@@ -1,6 +1,6 @@
-# Europe Map
+# Viewing a Raspberry PI datasheet
 
-Hover over a country to display its name and flag.
+Hover over a component to display its name and purpose !
 
 
 ## Deployment
