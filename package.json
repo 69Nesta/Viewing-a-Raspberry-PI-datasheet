@@ -1,0 +1,15 @@
+{
+  "name": "raspberrypi_datasheet",
+  "version": "1.0.0",
+  "description": "Viewing a Raspberry PI datasheet",
+  "scripts": {
+    "build": "rm -r .parcel-cache && rm -r build && parcel build index.html --dist-dir build",
+    "dev": "rm -r .parcel-cache && rm -r dist && parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
