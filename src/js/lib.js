@@ -1,112 +1,98 @@
-export const composent = [
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_2"
+export const composent = {
+    DrawingGroup_2: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_3"
+    DrawingGroup_3: {
+        title: 'CPU / GPU',
+        content: 'This is where all the calculations are made !'
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_4"
+    DrawingGroup_4: {
+        title: 'Lorem ipsum dolor sit amet',
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dapibus, urna et elementum bibendum, orci purus commodo metus, ut molestie erat tortor vitae neque. Suspendisse pellentesque ipsum eget ante lobortis dignissim. Etiam bibendum libero in libero pellentesque ornare. Maecenas nisi nibh, ullamcorper non malesuada eu, vulputate vel dui. Ut egestas nunc eget fermentum porttitor. Morbi eros odio, ultricies non feugiat in, molestie pharetra magna. In vitae posuere nunc. Sed quis risus malesuada nibh cursus euismod.'
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_5"
+    DrawingGroup_5: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_6"
+    DrawingGroup_6: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_7"
+    DrawingGroup_7: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_9"
+    DrawingGroup_9: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_11"
+    DrawingGroup_11: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_12"
+    DrawingGroup_12: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_13"
+    DrawingGroup_13: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_14"
+    DrawingGroup_14: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_17"
+    DrawingGroup_17: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_21"
+    DrawingGroup_21: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_23"
+    DrawingGroup_23: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_26"
+    DrawingGroup_26: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_34"
+    DrawingGroup_34: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_35"
+    DrawingGroup_35: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_36"
+    DrawingGroup_36: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_41"
+    DrawingGroup_41: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_42"
+    DrawingGroup_42: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_45"
+    DrawingGroup_45: {
+        title: '',
+        content: ''
     },
-    {
-        "tile": "",
-        "content": "",
-        "id": "DrawingGroup_46"
+    DrawingGroup_46: {
+        title: '',
+        content: ''
     }
-]
+}
+
+export const getParents = el => {
+    for (var parents = []; el; el = el.parentNode) {
+        parents.push(el.id);
+    }
+
+    return parents;
+};
