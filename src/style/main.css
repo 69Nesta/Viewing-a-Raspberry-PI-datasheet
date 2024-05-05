@@ -27,17 +27,13 @@ html, body {
 }
 
 #component_title {
-    /* font-size: 800; */
-    /* font-weight: 800; */
     font-weight: 900;
     font-size: 20px;
     margin-bottom: 7px;
-    
 }
 
 #component_component {
     font-size: 18px;
-    
 }
 
 
@@ -103,14 +99,6 @@ html, body {
 
 #DrawingGroup_23:hover > #g2578 > path { /* PoE */
     fill: gray;
-}
-
-#DrawingGroup_34:hover > #g2803 > path { /* idk */
-    fill: #303030;
-}
-
-#DrawingGroup_34:hover > #g2808 > path { /* idk */
-    fill: #a0a0a0;
 }
 
 #DrawingGroup_35:hover > #g2815 > path { /* RAM */
